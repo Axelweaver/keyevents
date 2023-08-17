@@ -1,8 +1,4 @@
-	var data = { 
-		// keyDownEvent: {},
-		// keyUpEvent: {},
-		// KeyPressEvent: {}
-	};
+	var data = { };
 	
 function show(event, type) {
 
