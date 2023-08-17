@@ -25,12 +25,16 @@ function show(event, type) {
 	switch (type) {
 		case 'keydown':
 			data.keyDownEvent = eventData;
+			break;
 		case 'keyup':
 			data.keyUpEvent = eventData;
+			break;
 		case 'keypress':
 			data.KeyPressEvent = eventData;
+			break;
 		default:
 			data.KeyPressEvent = eventData;
+			break;
 	}
 	
 	jsonOutputElement.innerHTML = JSON.stringify(data, undefined, 4);
