@@ -1,5 +1,6 @@
 	var data = { };
-	
+
+// show the data of event
 function show(event, type) {
 
 	var jsonOutputElement = document.getElementById('jsonOutput');
